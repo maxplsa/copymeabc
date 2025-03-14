@@ -20,7 +20,7 @@ lint-test-job:   # This job also runs in the test stage.
 #     - qa-test-linux 
    script: 
      - echo "Linting code... This will take about 10 seconds." 
-     - echo "No lint issues found." 
+     - echo "No lint islsues found." 
   
 deploy-job:      # This job runs in the deploy stage. 
    environment: production 
