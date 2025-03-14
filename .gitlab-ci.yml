@@ -3,10 +3,7 @@ stages:          # List of stages for jobs, and their order of execution
    - test 
    - deploy 
 
-default: 
-   tags: 
-#     - qa-test-linux 
-     - advanced-linux-runner 
+
   
 # include: 
 #    - template: Security/Dependency-Scanning.gitlab-ci.yml 
