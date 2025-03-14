@@ -11,7 +11,7 @@ build-job:       # This job runs in the build stage, which runs first.
 #   tags: 
 #     - qa-test-linux 
    script: 
-     - echo "Compiling the code..." 
+     - echo "Compilin2g the code..." 
      - echo "Compile complete." 
   
 lint-test-job:   # This job also runs in the test stage. 
